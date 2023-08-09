@@ -32,7 +32,7 @@ export const LocationComponent = () => {
     } else {
       setError('Geolocalização não suportada pelo navegador');
     }
-  },);
+  },[]);
 
   return (
     <div>
